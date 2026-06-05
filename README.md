@@ -41,7 +41,7 @@ Partendo dal principio di equivalenza e dalla geometria interna dei buchi neri, 
 
 La caratteristica centrale del modello è la dilatazione temporale crescente legata alla contrazione:
 
-Man mano che procediamo verso la singolarità, il tempo proprio rallenta progressivamente. Il parametro interno (coordinata radiale effettiva $r(\tau)$) tende a zero solo per $\tau \to \infty$.
+Man mano che ci avviciniamo alla singolarità, la dilatazione temporale cresce: visti dall'esterno, i secondi interni diventano progressivamente più lunghi. Il parametro interno (coordinata radiale effettiva $r(\tau)$) tende a zero solo per $\tau \to \infty$. Dal nostro punto di vista interno, il tempo scorre normalmente — ma non raggiungiamo mai la singolarità.
 
 **Conseguenza:** la singolarità non viene mai raggiunta. La contrazione è frenata in modo naturale dalla relatività generale, rendendo il processo eterno dal nostro sistema di riferimento senza bisogno di rimbalzi quantistici.
 
@@ -69,7 +69,7 @@ Il modello si inserisce nella linea di ricerca sulla cosmologia dei buchi neri (
 - Risoluzione naturale del problema della singolarità.
 - Compatibilità con il principio di equivalenza e con la relatività generale classica.
 - **Assenza di un centro spaziale:** nella metrica di Schwarzschild interna, la singolarità non è un punto nello spazio ma un'ipersuperficie nel tempo — è nel futuro di ogni osservatore, non in una direzione privilegiata. La contrazione è quindi uniforme e priva di centro, esattamente come l'espansione nel modello del Big Bang. Questa proprietà è naturalmente compatibile con l'isotropia del fondo cosmico a microonde.
-- **Espansione apparente e accelerazione cosmica:** la contrazione globale frenata, vista dall'interno, appare come espansione. L'accelerazione del tempo proprio produce un effetto osservabile analogo all'espansione accelerata, senza richiedere l'introduzione dell'energia oscura.
+- **Espansione apparente e accelerazione cosmica:** la contrazione globale frenata, vista dall'interno, appare come espansione. La dilatazione temporale crescente — i secondi interni diventano progressivamente più lunghi visti dall'esterno — produce un effetto osservabile analogo all'espansione accelerata, senza richiedere l'introduzione dell'energia oscura.
 
 ### Questioni aperte
 
