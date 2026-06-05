@@ -17,7 +17,7 @@ Si esplora qui, in via speculativa, un modello interpretativo in cui il nostro u
 
 | Diagramma spaziotemporale | Vista dell'osservatore interno | Schema comparativo |
 |:---:|:---:|:---:|
-| ![Diagramma spaziotemporale](diagramma-spaziotemporale.svg) | ![Vignetta osservatore](vignetta-osservatore.svg) | ![Schema comparativo](schema-comparativo.svg) |
+| ![Diagramma spaziotemporale](immagini/diagramma-spaziotemporale.png) | ![Vignetta osservatore](immagini/vignetta-osservatore.png) | ![Schema comparativo](immagini/schema-comparativo.png) |
 
 ---
 
