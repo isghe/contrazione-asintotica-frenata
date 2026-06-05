@@ -69,7 +69,7 @@ Il modello si inserisce nella linea di ricerca sulla cosmologia dei buchi neri (
 - Risoluzione naturale del problema della singolarità.
 - Compatibilità con il principio di equivalenza e con la relatività generale classica.
 - **Assenza di un centro spaziale:** nella metrica di Schwarzschild interna, la singolarità non è un punto nello spazio ma un'ipersuperficie nel tempo — è nel futuro di ogni osservatore, non in una direzione privilegiata. La contrazione è quindi uniforme e priva di centro, esattamente come l'espansione nel modello del Big Bang. Questa proprietà è naturalmente compatibile con l'isotropia del fondo cosmico a microonde.
-- **Espansione apparente e accelerazione cosmica:** la contrazione globale frenata, vista dall'interno, appare come espansione. La dilatazione temporale crescente — i secondi interni diventano progressivamente più lunghi visti dall'esterno — produce un effetto osservabile analogo all'espansione accelerata, senza richiedere l'introduzione dell'energia oscura.
+- **Espansione apparente e accelerazione cosmica:** la contrazione globale frenata, vista dall'interno, appare come espansione. La dilatazione temporale crescente fa sì che i secondi propri diventino progressivamente più lunghi. Questo rallentamento del tempo produce un effetto osservabile analogo all'espansione accelerata, senza bisogno di introdurre l'energia oscura.
 
 ### Questioni aperte
 
