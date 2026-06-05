@@ -60,6 +60,7 @@ Il modello si inserisce nella linea di ricerca sulla cosmologia dei buchi neri (
 - Unificazione elegante tra gravità locale e cosmologia.
 - Risoluzione naturale del problema della singolarità.
 - Compatibilità con il principio di equivalenza e con la relatività generale classica.
+- **Assenza di un centro spaziale:** nella metrica di Schwarzschild interna, la singolarità non è un punto nello spazio ma un'ipersuperficie nel tempo — è nel futuro di ogni osservatore, non in una direzione privilegiata. La contrazione è quindi uniforme e priva di centro, esattamente come l'espansione nel modello del Big Bang. Questa proprietà è naturalmente compatibile con l'isotropia del fondo cosmico a microonde.
 
 ### Questioni aperte
 
