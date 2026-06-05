@@ -15,7 +15,7 @@ Si esplora qui, in via speculativa, un modello interpretativo in cui il nostro u
 
 ## 1. Introduzione
 
-Il modello standard descrive un universo in espansione accelerata, ma lascia aperti molti interrogativi sull'origine del Big Bang, sul fine-tuning delle costanti e sulla natura dell'energia oscura.
+Il modello standard descrive un universo in espansione accelerata, ma lascia aperti molti interrogativi sull'origine del Big Bang, sulla taratura fine delle costanti e sulla natura dell'energia oscura.
 
 Partendo dal principio di equivalenza e dalla geometria interna dei buchi neri, si sviluppa qui una visione alternativa: il nostro universo è l'interno di un buco nero. Dal punto di vista esterno tutto collassa; dal nostro punto di vista interno questo collasso appare come espansione, mentre la contrazione globale frenata genera la gravità quotidiana.
 
@@ -35,7 +35,7 @@ La caratteristica centrale del modello è la dilatazione temporale crescente leg
 
 Man mano che procediamo verso la singolarità, il tempo proprio rallenta progressivamente. Il parametro interno (coordinata radiale effettiva $r(\tau)$) tende a zero solo per $\tau \to \infty$.
 
-**Conseguenza:** la singolarità non viene mai raggiunta. La contrazione è frenata in modo naturale dalla relatività generale, rendendo il processo eterno dal nostro frame senza bisogno di rimbalzi quantistici.
+**Conseguenza:** la singolarità non viene mai raggiunta. La contrazione è frenata in modo naturale dalla relatività generale, rendendo il processo eterno dal nostro sistema di riferimento senza bisogno di rimbalzi quantistici.
 
 ---
 
