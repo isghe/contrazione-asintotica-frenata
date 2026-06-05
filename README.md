@@ -1,5 +1,5 @@
 # Contrazione Asintotica Frenata
-## Un'Ipotesi Interpretativa: La Gravità come Possibile Effetto Locale di una Caduta Cosmica Eterna all'Interno di un Buco Nero
+## Un'ipotesi interpretativa: la gravità come possibile effetto locale di una caduta cosmica eterna all'interno di un buco nero
 
 **Progetto:** Contrazione-Asintotica-Frenata  
 **Autore:** Isidoro Ghezzi  
