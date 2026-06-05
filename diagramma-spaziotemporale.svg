@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 520" font-family="Georgia, serif">
+
+  <!-- Sfondo -->
+  <rect width="500" height="520" fill="#0a0a1a"/>
+
+  <!-- Titolo -->
+  <text x="250" y="30" text-anchor="middle" fill="#cccccc" font-size="13">Diagramma spaziotemporale (Schwarzschild interno)</text>
+
+  <!-- Assi -->
+  <!-- Asse tempo (verticale) -->
+  <line x1="250" y1="60" x2="250" y2="440" stroke="#444" stroke-width="1" stroke-dasharray="4,4"/>
+  <!-- Asse spazio (orizzontale) -->
+  <line x1="60" y1="440" x2="440" y2="440" stroke="#444" stroke-width="1" stroke-dasharray="4,4"/>
+
+  <!-- Etichette assi -->
+  <text x="255" y="58" fill="#888" font-size="11">tempo τ</text>
+  <text x="445" y="444" fill="#888" font-size="11">spazio r</text>
+
+  <!-- Singolarità (linea orizzontale futura) -->
+  <line x1="60" y1="80" x2="440" y2="80" stroke="#ff4444" stroke-width="3"/>
+  <text x="250" y="70" text-anchor="middle" fill="#ff4444" font-size="12" font-weight="bold">SINGOLARITÀ (futuro di ogni osservatore)</text>
+
+  <!-- Orizzonte degli eventi (linee diagonali a 45°) -->
+  <line x1="60" y1="440" x2="250" y2="80" stroke="#ffaa00" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <line x1="440" y1="440" x2="250" y2="80" stroke="#ffaa00" stroke-width="1.5" stroke-dasharray="6,3"/>
+  <text x="100" y="300" fill="#ffaa00" font-size="10" transform="rotate(-52, 100, 300)">orizzonte degli eventi</text>
+
+  <!-- Linee di mondo degli osservatori (caduta verso la singolarità) -->
+  <!-- Osservatore centrale -->
+  <path d="M 250 440 Q 250 260 250 80" stroke="#44aaff" stroke-width="2" fill="none"/>
+  <!-- Osservatore sinistro -->
+  <path d="M 160 440 Q 165 260 250 80" stroke="#44aaff" stroke-width="2" fill="none" stroke-dasharray="none"/>
+  <!-- Osservatore destro -->
+  <path d="M 340 440 Q 335 260 250 80" stroke="#44aaff" stroke-width="2" fill="none"/>
+  <!-- Osservatore più esterno sinistro -->
+  <path d="M 90 440 Q 110 260 250 80" stroke="#4488cc" stroke-width="1.5" fill="none" opacity="0.6"/>
+  <!-- Osservatore più esterno destro -->
+  <path d="M 410 440 Q 390 260 250 80" stroke="#4488cc" stroke-width="1.5" fill="none" opacity="0.6"/>
+
+  <!-- Coni luce a metà percorso -->
+  <g opacity="0.5">
+    <!-- Cono centrale a metà -->
+    <line x1="250" y1="260" x2="225" y2="230" stroke="#ffffff" stroke-width="1"/>
+    <line x1="250" y1="260" x2="275" y2="230" stroke="#ffffff" stroke-width="1"/>
+    <line x1="250" y1="260" x2="250" y2="290" stroke="#ffffff" stroke-width="1" stroke-dasharray="2,2"/>
+    <!-- Cono sinistro -->
+    <line x1="160" y1="280" x2="140" y2="255" stroke="#ffffff" stroke-width="1"/>
+    <line x1="160" y1="280" x2="180" y2="255" stroke="#ffffff" stroke-width="1"/>
+    <!-- Cono destro -->
+    <line x1="340" y1="280" x2="320" y2="255" stroke="#ffffff" stroke-width="1"/>
+    <line x1="340" y1="280" x2="360" y2="255" stroke="#ffffff" stroke-width="1"/>
+  </g>
+
+  <!-- Etichette osservatori -->
+  <circle cx="250" cy="440" r="4" fill="#44aaff"/>
+  <circle cx="160" cy="440" r="4" fill="#44aaff"/>
+  <circle cx="340" cy="440" r="4" fill="#44aaff"/>
+  <text x="250" y="458" text-anchor="middle" fill="#44aaff" font-size="10">osservatori (τ=0)</text>
+
+  <!-- Frecce che indicano la direzione della caduta -->
+  <defs>
+    <marker id="arrowBlue" markerWidth="6" markerHeight="6" refX="3" refY="3" orient="auto">
+      <path d="M0,0 L6,3 L0,6 Z" fill="#44aaff"/>
+    </marker>
+  </defs>
+  <line x1="250" y1="320" x2="250" y2="295" stroke="#44aaff" stroke-width="1.5" marker-end="url(#arrowBlue)"/>
+  <line x1="164" y1="320" x2="167" y2="295" stroke="#44aaff" stroke-width="1.5" marker-end="url(#arrowBlue)"/>
+  <line x1="336" y1="320" x2="333" y2="295" stroke="#44aaff" stroke-width="1.5" marker-end="url(#arrowBlue)"/>
+
+  <!-- Nota -->
+  <text x="250" y="480" text-anchor="middle" fill="#666" font-size="10">La singolarità è un'ipersuperficie temporale, non un punto nello spazio.</text>
+  <text x="250" y="496" text-anchor="middle" fill="#666" font-size="10">Ogni osservatore la raggiunge nel proprio futuro, senza direzione privilegiata.</text>
+
+  <!-- Legenda -->
+  <rect x="320" y="380" width="160" height="55" fill="#111" stroke="#333" stroke-width="1" rx="4"/>
+  <line x1="330" y1="393" x2="355" y2="393" stroke="#ff4444" stroke-width="2"/>
+  <text x="360" y="396" fill="#cccccc" font-size="10">singolarità</text>
+  <line x1="330" y1="408" x2="355" y2="408" stroke="#ffaa00" stroke-width="1.5" stroke-dasharray="5,2"/>
+  <text x="360" y="411" fill="#cccccc" font-size="10">orizzonte eventi</text>
+  <line x1="330" y1="423" x2="355" y2="423" stroke="#44aaff" stroke-width="2"/>
+  <text x="360" y="426" fill="#cccccc" font-size="10">linee di mondo</text>
+
+</svg>

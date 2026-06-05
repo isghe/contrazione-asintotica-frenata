@@ -13,6 +13,14 @@ Si esplora qui, in via speculativa, un modello interpretativo in cui il nostro u
 
 ---
 
+## Diagrammi
+
+| Diagramma spaziotemporale | Vista dell'osservatore interno | Schema comparativo |
+|:---:|:---:|:---:|
+| ![Diagramma spaziotemporale](diagramma-spaziotemporale.svg) | ![Vignetta osservatore](vignetta-osservatore.svg) | ![Schema comparativo](schema-comparativo.svg) |
+
+---
+
 ## 1. Introduzione
 
 Il modello standard descrive un universo in espansione accelerata, ma lascia aperti molti interrogativi sull'origine del Big Bang, sulla taratura fine delle costanti e sulla natura dell'energia oscura.

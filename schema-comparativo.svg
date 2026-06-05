@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 420" font-family="Georgia, serif">
+
+  <!-- Sfondo -->
+  <rect width="600" height="420" fill="#080812"/>
+
+  <!-- Titolo generale -->
+  <text x="300" y="28" text-anchor="middle" fill="#cccccc" font-size="14" font-weight="bold">Due punti di vista sulla stessa dinamica</text>
+
+  <!-- Linea divisoria centrale -->
+  <line x1="300" y1="45" x2="300" y2="395" stroke="#333" stroke-width="1.5"/>
+
+  <!-- ═══════════════════════════════════ -->
+  <!-- PANNELLO SINISTRO: vista esterna   -->
+  <!-- ═══════════════════════════════════ -->
+
+  <text x="150" y="55" text-anchor="middle" fill="#ffaa00" font-size="12" font-weight="bold">Vista esterna</text>
+  <text x="150" y="70" text-anchor="middle" fill="#888" font-size="10">(universo genitore)</text>
+
+  <!-- Buco nero che si contrae — stato iniziale (grande, trasparente) -->
+  <circle cx="150" cy="220" r="110" fill="none" stroke="#ffaa00" stroke-width="1" stroke-dasharray="5,3" opacity="0.3"/>
+
+  <!-- Buco nero stato intermedio -->
+  <circle cx="150" cy="220" r="80" fill="none" stroke="#ffaa00" stroke-width="1.5" stroke-dasharray="5,3" opacity="0.5"/>
+
+  <!-- Buco nero stato attuale (più piccolo) -->
+  <circle cx="150" cy="220" r="55" fill="#0d0d2a" stroke="#ffaa00" stroke-width="2.5"/>
+
+  <!-- Frecce di contrazione verso il centro (esterna) -->
+  <defs>
+    <marker id="arrowIn" markerWidth="7" markerHeight="7" refX="1" refY="3.5" orient="auto">
+      <path d="M7,0 L0,3.5 L7,7 Z" fill="#ffaa00"/>
+    </marker>
+    <marker id="arrowOut" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#44aaff"/>
+    </marker>
+    <marker id="arrowSing" markerWidth="7" markerHeight="7" refX="6" refY="3.5" orient="auto">
+      <path d="M0,0 L7,3.5 L0,7 Z" fill="#ff4444"/>
+    </marker>
+  </defs>
+
+  <!-- Frecce esterne che puntano verso il buco nero -->
+  <line x1="150" y1="95" x2="150" y2="125" stroke="#ffaa00" stroke-width="1.5" marker-end="url(#arrowIn)"/>
+  <line x1="240" y1="150" x2="220" y2="165" stroke="#ffaa00" stroke-width="1.5" marker-end="url(#arrowIn)"/>
+  <line x1="268" y1="220" x2="240" y2="220" stroke="#ffaa00" stroke-width="1.5" marker-end="url(#arrowIn)"/>
+  <line x1="240" y1="290" x2="220" y2="275" stroke="#ffaa00" stroke-width="1.5" marker-end="url(#arrowIn)"/>
+  <line x1="150" y1="345" x2="150" y2="318" stroke="#ffaa00" stroke-width="1.5" marker-end="url(#arrowIn)"/>
+  <line x1="60" y1="290" x2="80" y2="275" stroke="#ffaa00" stroke-width="1.5" marker-end="url(#arrowIn)"/>
+  <line x1="32" y1="220" x2="58" y2="220" stroke="#ffaa00" stroke-width="1.5" marker-end="url(#arrowIn)"/>
+  <line x1="60" y1="150" x2="80" y2="165" stroke="#ffaa00" stroke-width="1.5" marker-end="url(#arrowIn)"/>
+
+  <!-- Singolarità al centro (piccola) -->
+  <circle cx="150" cy="220" r="5" fill="#ff4444"/>
+  <text x="150" y="245" text-anchor="middle" fill="#ff4444" font-size="9">singolarità</text>
+
+  <!-- Etichetta contrazione -->
+  <text x="150" y="378" text-anchor="middle" fill="#ffaa00" font-size="11" font-style="italic">contrazione globale</text>
+  <text x="150" y="393" text-anchor="middle" fill="#666" font-size="9">tutto collassa verso la singolarità</text>
+
+  <!-- ═══════════════════════════════════ -->
+  <!-- PANNELLO DESTRO: vista interna     -->
+  <!-- ═══════════════════════════════════ -->
+
+  <text x="450" y="55" text-anchor="middle" fill="#44aaff" font-size="12" font-weight="bold">Vista interna</text>
+  <text x="450" y="70" text-anchor="middle" fill="#888" font-size="10">(il nostro universo)</text>
+
+  <!-- Sfondo universo interno -->
+  <circle cx="450" cy="220" r="120" fill="#0a0a20" stroke="#223" stroke-width="1"/>
+
+  <!-- Galassie che si allontanano verso l'esterno -->
+  <!-- Nord -->
+  <ellipse cx="450" cy="130" rx="10" ry="5" fill="#aaddff" opacity="0.8"/>
+  <line x1="450" y1="123" x2="450" y2="98" stroke="#44aaff" stroke-width="1.5" marker-end="url(#arrowOut)"/>
+
+  <!-- Nord-est -->
+  <ellipse cx="512" cy="155" rx="9" ry="5" fill="#aaddff" opacity="0.7" transform="rotate(45,512,155)"/>
+  <line x1="518" y1="149" x2="540" y2="127" stroke="#44aaff" stroke-width="1.5" marker-end="url(#arrowOut)"/>
+
+  <!-- Est -->
+  <ellipse cx="540" cy="220" rx="10" ry="5" fill="#aaddff" opacity="0.8" transform="rotate(90,540,220)"/>
+  <line x1="551" y1="220" x2="572" y2="220" stroke="#44aaff" stroke-width="1.5" marker-end="url(#arrowOut)"/>
+
+  <!-- Sud-est -->
+  <ellipse cx="512" cy="285" rx="9" ry="5" fill="#aaddff" opacity="0.7" transform="rotate(135,512,285)"/>
+  <line x1="518" y1="291" x2="540" y2="313" stroke="#44aaff" stroke-width="1.5" marker-end="url(#arrowOut)"/>
+
+  <!-- Sud -->
+  <ellipse cx="450" cy="310" rx="10" ry="5" fill="#aaddff" opacity="0.8"/>
+  <line x1="450" y1="317" x2="450" y2="342" stroke="#44aaff" stroke-width="1.5" marker-end="url(#arrowOut)"/>
+
+  <!-- Sud-ovest -->
+  <ellipse cx="388" cy="285" rx="9" ry="5" fill="#aaddff" opacity="0.7" transform="rotate(-135,388,285)"/>
+  <line x1="382" y1="291" x2="360" y2="313" stroke="#44aaff" stroke-width="1.5" marker-end="url(#arrowOut)"/>
+
+  <!-- Ovest -->
+  <ellipse cx="360" cy="220" rx="10" ry="5" fill="#aaddff" opacity="0.8" transform="rotate(90,360,220)"/>
+  <line x1="349" y1="220" x2="328" y2="220" stroke="#44aaff" stroke-width="1.5" marker-end="url(#arrowOut)"/>
+
+  <!-- Nord-ovest -->
+  <ellipse cx="388" cy="155" rx="9" ry="5" fill="#aaddff" opacity="0.7" transform="rotate(-45,388,155)"/>
+  <line x1="382" y1="149" x2="360" y2="127" stroke="#44aaff" stroke-width="1.5" marker-end="url(#arrowOut)"/>
+
+  <!-- Osservatore al centro -->
+  <circle cx="450" cy="220" r="12" fill="#1a3a6a" stroke="#44aaff" stroke-width="1.5"/>
+  <circle cx="450" cy="215" r="3.5" fill="#88ccff"/>
+  <line x1="450" y1="218" x2="450" y2="228" stroke="#88ccff" stroke-width="1.5"/>
+  <line x1="446" y1="222" x2="454" y2="222" stroke="#88ccff" stroke-width="1.5"/>
+
+  <!-- Etichetta espansione -->
+  <text x="450" y="378" text-anchor="middle" fill="#44aaff" font-size="11" font-style="italic">espansione apparente</text>
+  <text x="450" y="393" text-anchor="middle" fill="#666" font-size="9">la stessa dinamica, vista dall'interno</text>
+
+  <!-- Freccia di equivalenza al centro -->
+  <text x="300" y="215" text-anchor="middle" fill="#888" font-size="18">⟺</text>
+  <text x="300" y="232" text-anchor="middle" fill="#666" font-size="9">stessa</text>
+  <text x="300" y="244" text-anchor="middle" fill="#666" font-size="9">dinamica</text>
+
+</svg>
